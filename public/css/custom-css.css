@@ -1,0 +1,442 @@
+.invalid-feedback {
+  display:block;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 95%;
+  color: #cd201f;
+}
+.wrap-login100-form-btn button:hover{
+	background-color:#4e1485;
+}
+.help-text{
+	color:#777;
+}
+.error{
+	color:red;
+}
+header .intro-text .intro-lead-in{
+	font-size:35px;
+	margin-top:20px;
+}
+.box .box-row{
+	display:flex;
+	padding:5px 50px;
+}
+.box .box-row label{
+	flex: 20%;
+}
+.box .box-row .box-row-content{
+	flex: 80%;
+}
+.view_eye{
+	text-decoration:none;
+	color:#666;
+	font-size:16px;
+	padding: 0px 12px;
+}
+.view_eye:hover{
+	color:#333;
+}
+.view_link{
+	text-decoration:none;
+	color:inherit;
+}
+.view_link:hover{
+	color:rgba(137,43,225,1);
+}
+.small-box .booking-box{
+	display:flex;
+}
+.modal-row{
+	display:flex;
+	padding:2px 10px;
+}
+.modal-row label{
+	flex:30%;
+}
+.modal-row p{
+	flex:60%;
+}
+a.notification_link{
+	padding:2px 10px !important;
+	white-space:inherit !important;
+}
+a.notification_link:hover{
+	background: #ceffff !important;
+}
+a#view_all_notifications:hover{
+	background:#ececec;
+}
+
+.add-to-wishlist{
+	font-size:15px;
+	float:right;
+	color:#ff2b2b;
+	padding-top:5px;
+}
+.add-to-wishlist a{
+	text-decoration:none;
+	color:inherit;
+}
+.add-to-wishlist a:hover{
+	color:#cc1414;
+}
+.wishlist-body{
+	display:flex;
+	border: 1px solid #eee;
+	padding:10px;
+	height:200px;
+	margin-bottom:5px;
+}
+.wishlist-image{
+	flex:0.1;
+	margin-right: 30px;
+}
+.wishlist-details{
+	flex:0.9;
+}
+.wishlist-price{
+	float:right;
+	margin-right:30px;
+}
+.wishlist-link{
+	text-decoration:none !important;
+}
+.wishlist-link:hover .wishlist-body{
+	background-color:#f3e9fc;
+}
+a.view_detail{
+	text-decoration:none;
+	color:inherit;
+}
+a.view_detail:hover{
+	color:#000;
+}
+.page-header{margin-bottom:10px;}
+.notification-list-user-block{padding-left:20px;}
+input[type=file]{box-shadow:none;border-color:#d2d2e4;}
+.search-column{font-size:12px;padding:10px 6px;}
+
+/* Notification count bubble */
+.notification_count{
+	font-family:inherit;
+	font-size:11px;
+	background-color:rgba(137,43,225,0.6);
+	font-weight:normal;
+	position: absolute;
+	top: -12px;
+    left: 13px;
+	width: 19px;
+    height: 19px;
+	border-radius: 50%;
+}
+.cart_count{
+	font-family:"Roboto",sans-serif;
+	font-size:11px;
+	background-color:rgba(137,43,225,0.6);
+	font-weight:normal;
+	position: absolute;
+	top: -9px;
+    left: 17px;
+	width: 19px;
+    height: 19px;
+	border-radius: 50%;
+}
+
+/* Datatables search column */
+@media (min-width: 768px){
+    .form-inline .form-control.search-column {
+      width: 100%;
+      padding:5px;
+      font-size:12px;
+    }
+}
+
+/* Contact form */
+.company-details-box{
+	border:1px solid #eee;
+	box-shadow:0px 1px 1px #eee;
+	padding:50px;
+	margin-top:40px;
+}
+.company-details{
+	color:inherit;
+}
+
+/* Reviews Section */
+section#Reviews .section-title h2 {
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #363536;
+}
+.review-box{
+	display:flex;
+	flex-direction:column;
+	border-bottom: 1px solid #eee;
+	padding:15px;
+}
+.review-top{
+	display:flex;
+}
+.review-top img{
+	flex: 5%;
+    border-radius: 50%;
+    height: 60px;
+    width: 30px;
+}
+.review-top .review-top-data{
+	flex:95%;
+}
+.review-top .review-top-data h4{
+	font-weight:400;
+	margin: 5px 10px;
+}
+.review-top .review-top-data h4>span{
+	font-size:15px;
+	font-weight:100;
+	margin-left:5px;
+}
+.review-bottom{
+	padding-top:20px;
+}
+@media (max-width: 768px){
+	.review-top img{
+		flex: 10%;
+		width:60px;
+	}
+	.review-top .review-top-data{
+		flex:90%;
+	}
+}
+
+/* Loader */
+.loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+.hide{display:none;}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Datatables ColVis Buttons Css */
+.dt-button.buttons-collection.buttons-colvis{
+	display: block;
+    /* width: 100%; */
+	padding: 6px 12px;
+	box-shadow: none;
+	outline: none;
+	border: 1px solid transparent;
+	background: #00c0ef;
+    border-color: #00acd6;
+	border-radius: 3px;
+	color: #fff;
+}
+.dt-button.buttons-collection.buttons-colvis:hover{
+	color: #fff;
+    background: #269abc;
+    border-color: #1b6d85;
+}
+.dt-button-collection.fixed.two-column{
+	background: rgba(0,0,0,0.5);
+	padding: 5px;
+}
+a.dt-button.buttons-columnVisibility.active{
+	display: block;
+    width: 100%;
+	padding: 6px 12px;
+	box-shadow: inset 1px 1px 5px #333 !important;
+	outline: none;
+	background: #605ca8 !important;
+	border: 1px solid transparent;
+	border-color: #9c4ee4;
+	border-radius: 3px;
+	color: #fff;
+}
+a.dt-button.buttons-columnVisibility{
+	display: block;
+    width: 100%;
+	padding: 6px 12px;
+	outline: none;
+	background: #f4f4f4 !important;
+	border: 1px solid transparent;
+    border-color: #ddd;
+	border-radius: 3px;
+	color: #444;
+}
+
+/* Colvis button */
+@media (max-width: 768px){
+    .buttons-colvis{
+		width:40%;
+		margin: 10px auto !important;
+	}
+}
+
+/* Description Details Css */
+td.details-control{position:relative;}
+.listing_details_table {height:10px;}
+.listing_details_table td{padding:2px 10px;}
+td.details-control:after {
+  content: "\f055";
+  font-family: 'Font Awesome\ 5 Free';
+  left:2px;
+  position:absolute;
+  top:16px;
+  cursor: pointer;
+  font-size:16px;
+  color: rgba(137,43,225,1);
+  font-weight:900;
+}
+tr.shown td.details-control:after {
+  content: "\f056";
+  font-family: 'Font Awesome\ 5 Free';
+  left:2px;
+  position:absolute;
+  top:16px;
+  cursor: pointer;
+  font-size:16px;
+  color: rgba(137,43,225,1);
+  font-weight:900;
+}
+
+/* Glyphicon Picture Icon Css */
+.glyphicon-picture{color:#777;}
+.glyphicon-picture:hover{color:rgba(0,0,0,0.8);}
+
+/* Listing Images */
+#image-box{
+	display: flex;
+	flex-wrap:wrap;
+}
+#image-box .image_container{
+	flex:33.3%;
+	max-width: 33.3%;
+	margin-bottom:5px;
+}
+#image-box .edit_image_container{
+	flex:21%;
+	max-width: 21%;
+}
+#image-box img{
+	height: calc(7em + 10px);
+    width: auto;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 3px #999;
+}
+
+/* Capitalise Team Name for Listing */
+.team-name{
+	text-transform: uppercase;
+}
+
+/* Checkboxes */
+.form_checkbox{
+	padding: 5px 0px;
+	display: flex;
+}
+.form_checkbox .checkbox-label{
+	margin-left:10px;
+}
+
+/* Change size of modal for booking calendar */
+@media (min-width: 768px){
+	.modal-dialog.calendar-dialog {
+		width: 1000px;
+	}
+}
+.calendar_body{
+	display: flex;
+}
+.calendar{
+	flex: 52%;
+}
+.calendar_details{
+	flex: 48%;
+	padding: 10px 50px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+.select_date_to_proceed{
+	align-self: center;
+	color:#444;
+	text-transform: uppercase;
+}
+#no_of_seats{
+	margin-bottom:20px;
+}
+.guests_group, .times_group{
+	display:flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	flex-wrap:wrap;
+}
+.guests_group .guest{
+	display:flex;
+	align-items:center;
+	margin-bottom:10px;
+	width:100%;
+	justify-content:space-between;
+}
+.guests_group .guest label{
+	margin-left:30px;
+}
+.guests_group .guest .guestcount {
+    margin-right: 30px;
+}
+.guests_group .guest .btn-plus, .guests_group .guest .btn-minus{
+	background-color: rgba(137,43,225);
+	color: #fff;
+	border-radius:50%;
+}
+.guests_group .guest .btn-plus:hover, .guests_group .guest .btn-minus:hover{
+	background-color: #5b169c;
+	color: #fff;
+}
+.times_group .time{
+	position:relative;
+	padding:0;
+	width:150px;
+	margin: 0 10px 10px 0;
+    border-color: #ddd;
+}
+.times_group .time:hover{
+    background-color: #6e1cba;
+    border-color: #6e1cba;
+}
+.times_group .time input[type=radio]{
+	opacity: 0;
+    height: 45px;
+    width: 100%;
+	margin:0;
+}
+.times_group .time input[type=radio]:hover, .times_group .time label:hover{
+	cursor:pointer;
+}
+.times_group .time label{
+	position:absolute;
+	margin:0px;
+	top:12px;
+	left:23px;
+}
+.times_group .time label{
+	left:13px;
+}
+.times_group .time:hover label{
+	color: #fff;
+}
